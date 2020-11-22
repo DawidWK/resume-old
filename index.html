@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="#">
+
+    <link rel="stylesheet" href="static/style.css">
+    
+    <script src="https://kit.fontawesome.com/71ff49c0ac.js" crossorigin="anonymous"></script>
+    <script src="static/slider.js"></script>
+
+    <title>Resume</title>
+</head>
+<body>
+    <ul class="my-navbar">
+        <li class="my-nav-item nav-home"><a href="#home">HOME</a></li>
+        <li class="my-nav-item nav-contact"><a href="#contact">CONTACT</a></li>
+        <li class="my-nav-item nav-projects"><a href="#projects">PROJECTS</a></li>
+    </ul>
+    <div class='main'>
+        <section class="page1" id="home">
+            <div class="design-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="292.971" height="412.356" viewBox="0 0 292.971 412.356">
+                    <line id="Line_6" data-name="Line 6" x1="206" y2="363" transform="translate(43.486 24.678)" fill="none" stroke="#2b2b28" stroke-width="100"/>
+                </svg>          
+            </div>
+            <div class="about-wrapper">
+                <div class="about-text">
+                    <p class="fs-45">Hi, I'm David</p>
+                    <p class="fs-35">
+                        I'm 19 years-old, computer science student. Mainly coding in python.
+                        I'm a quick lerner and flexible person. I am currently intrested in Web Development,
+                        Artificial Intelligence and Design 
+                    </p>
+                </div>
+        </section>
+        <section class="page2" id="projects">
+        <div class="wrapko">
+            <!-- <div class="project-title">
+                <p class="fs-45 c-white">MY WORK: </p>
+            </div> -->
+        <div class="slideshow-container">
+            <div class="project-wrapper">
+                <div class="button-left">
+                    <a class="prev-slide" style="background:transparent; border:none; color:transparent;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="57.628" height="81.887" viewBox="0 0 57.628 81.887">
+                            <line id="Line_1" data-name="Line 1" y1="35" x2="57" transform="translate(0.314 0.426)" fill="none" stroke="#707070" stroke-width="1"/>
+                            <line id="Line_2" data-name="Line 2" x1="57" y1="46" transform="translate(0.314 35.497)" fill="none" stroke="#707070" stroke-width="1"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="slide-itmes">
+                    <div class="slide activate">
+                        <div class="project-photo-wrapper">
+                            <img src="static/delivery.gif" class="project-img">
+                            <div class="buttons">
+                                <a href="https://deliverylive.herokuapp.com" target="_blank" class="preview-button"><i class="fas fa-eye"></i></a>
+                                <a href="https://github.com/DawidWK/delivery-django" target="_blank" class="code-button"><i class="fas fa-code"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-text-wrapper">
+                            <h1>DELIVERY WEBSITE</h1>
+                            <hr class="line">
+                            <p>
+                                Django web application. Allows you to order food from imaginary restaurant. Uses Google Maps API to calculate distance,
+                                between you and restaurant. If more orders are made, it creates queue and shows you when your food will be delivered.
+                            </p> 
+                        </div>
+                    </div>
+                    <div class="slide" >
+                        <div class="project-photo-wrapper">
+                            <img src="static/fridge.gif" class="project-img">
+                            <div class="buttons">
+                                <a href="https://thefridgeapp.herokuapp.com" target="_blank" class="preview-button"><i class="fas fa-eye"></i></a>
+                                <a href="https://github.com/DawidWK/fridge-django/" target="_blank" class="code-button"><i class="fas fa-code"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-text-wrapper">
+                            <h1>FRIDGE WEBSITE</h1>
+                            <hr class="line">
+                            <p>
+                                Django web application, shows family fridge. Everyone can post a note, choose an recipient, and importance. Notes are ordered by
+                                importance. Works on desktop and mobile devices. 
+                            </p> 
+                        </div>
+                    </div>
+                    <div class="slide" >
+                        <div class="project-photo-wrapper">
+                            <img src="static/covid-trakcer.png" class="project-img">
+                            <div class="buttons">
+                                <a href="https://dawidwk.github.io/Covid-Tracker-Polska/" target="_blank" class="preview-button"><i class="fas fa-eye"></i></a>
+                                <a href="https://github.com/DawidWK/Covid-Tracker-Polska" target="_blank" class="code-button"><i class="fas fa-code"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-text-wrapper">
+                            <h1>COVID TRACKER</h1>
+                            <hr class="line">
+                            <p>
+                                Made with HTML, CSS and JavaScript, shows up-to-date results of COVID stats in Poland. Uses API from github open project.
+                                Site is responsive, works fine on desktop and mobile.
+                            </p> 
+                        </div>
+                    </div>
+                    <div class="slide" >
+                        <div class="project-photo-wrapper">
+                            <img src="static/todo.gif" class="project-img">
+                            <div class="buttons">
+                                <a href="https://tododawid.herokuapp.com" target="_blank" class="preview-button"><i class="fas fa-eye"></i></a>
+                                <a href="https://github.com/DawidWK/todo-django" target="_blank" class="code-button"><i class="fas fa-code"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-text-wrapper">
+                            <h1>TODO WEBSITE</h1>
+                            <hr class="line">
+                            <p>
+                                Django web application, simple to-do website. Allows you to add tasks and delete them. Tasks are ordered by date. I made it to meet my personal 
+                                needs.
+                            </p> 
+                        </div>
+                    </div>
+                    <div class="slide" >
+                        <div class="project-photo-wrapper">
+                            <img src="static/twitter-bot.gif" class="project-img">
+                            <div class="buttons">
+                                <a href="https://twitter.com/_CounterBot" target="_blank" class="preview-button"><i class="fas fa-eye"></i></a>
+                                <a href="https://github.com/DawidWK/Twitter-Couting-Bot-Python" target="_blank" class="code-button"><i class="fas fa-code"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-text-wrapper">
+                            <h1>TWITTER BOT</h1>
+                            <hr class="line">
+                            <p>
+                                Simple python script, counts from 1 to 10.000 every single hour. Whole cycle should take around 400 days. It is connected to twitter API and hosted on Google 
+                                Cloud Servieces. If some error should happend and it wouldn't post a tweet I will get an email with description of the problem
+                            </p> 
+                        </div>
+                    </div>
+                </div>
+                <div class="button-right">
+                    <a class="next-slide" style="background:transparent; border:none; color:transparent;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="57.628" height="81.886" viewBox="0 0 57.628 81.886">
+                            <line id="Line_3" data-name="Line 3" x1="57" y1="35" transform="translate(0.314 0.426)" fill="none" stroke="#707070" stroke-width="1"/>
+                            <line id="Line_4" data-name="Line 4" y1="46" x2="57" transform="translate(0.314 35.497)" fill="none" stroke="#707070" stroke-width="1"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+            
+        </div>
+        </div>
+    
+        </section>
+        <section class="page3" id="contact">
+            <div class=logos-wrapper>
+                <ul class="logos">
+                    <li>
+                        <a class="contact_b" href="https://github.com/DawidWK" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="contact_b" href="https://www.linkedin.com/in/dawid-w-3441011b7" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="contact_b" href="https://stackoverflow.com/users/13305365/bazzuk123" target="_blank">
+                            <i class="fab fa-stack-overflow"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="contact_b" href="mailto:praca.dawidwk@gmail.com" target="_blank">
+                            <i class="fas fa-at"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
