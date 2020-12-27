@@ -99,7 +99,7 @@ section {
 .project-wrapper {
     height: 400px;
     min-width: 300px;
-    overflow: auto;
+    /* overflow: auto; */
     display: flex;
     align-items: center;
 
@@ -125,7 +125,7 @@ section {
 
 .slide.activate {
     display: flex;
-    overflow: auto;
+    /* overflow: auto; */
     align-items: center;
 }
 .project-photo-wrapper {
